@@ -1,0 +1,128 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+
+
+.App{
+  padding: 30px;
+  margin: 0 auto;
+  /* text-align: center; */
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  
+  
+
+  
+}
+
+
+.App-container{
+  background-image: url(/public/background-page.png);
+  background-size: cover;
+  padding: 30px;
+  margin: 0 auto;
+  /* text-align: center; */
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  
+}
+
+.location-info,
+.navbar{
+  display: grid;
+  place-content: center;
+  margin: 0 20px;
+  
+  
+}
+
+.search-control{
+
+  color: white;
+  width: 300px;
+  border: 1px solid var(--green);
+  background-color: transparent;
+  background-image: url(/lupa.svg);
+  background-repeat: no-repeat;
+  background-position: right ;
+  background-size: 10px;
+  padding-left: 10px;
+}
+.search-control::placeholder{
+  font-size: 12px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.location-info{
+  align-content: center;
+  justify-content: center;
+  min-width: 370px;
+  background-color: var(--green-dark);
+  border: 0.5px solid var(--green);
+  margin-top: 40px;
+}
+
+.location-subtitle{
+  color: var(--green);
+  margin: 20px 0;
+  text-align: 0;
+  justify-content: 0;
+}
+
+.logopage{
+  height: 150px;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.character-title{
+  padding: 10px;
+}
+
+.ResidentInfo{
+  display: grid;
+  grid-column: 2fr;
+  grid-row: 2fr;
+}
+
+
+
+
+
+
+
+
+
+
+.character-card{
+  border: var(--green) 2px solid;
+  padding-bottom: 10px;
+  
+ 
+
+}
+
+.location-info,
+.character-info{
+  display: flex;
+  flex-direction: row;
+}
+
+.location-info-info,
+.character-info-info{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: 0;
+}
+
